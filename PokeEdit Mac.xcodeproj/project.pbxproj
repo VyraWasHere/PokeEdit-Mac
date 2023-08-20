@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5295F5BD2A904DE800BA9F16 /* PokeEdit_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5BC2A904DE800BA9F16 /* PokeEdit_MacApp.swift */; };
+		5295F5BF2A904DE800BA9F16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5BE2A904DE800BA9F16 /* ContentView.swift */; };
+		5295F5C12A904DEA00BA9F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5295F5C02A904DEA00BA9F16 /* Assets.xcassets */; };
+		5295F5C42A904DEA00BA9F16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5295F5C32A904DEA00BA9F16 /* Preview Assets.xcassets */; };
+		5295F5CF2A904DEA00BA9F16 /* PokeEdit_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5CE2A904DEA00BA9F16 /* PokeEdit_MacTests.swift */; };
+		5295F5D92A904DEA00BA9F16 /* PokeEdit_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5D82A904DEA00BA9F16 /* PokeEdit_MacUITests.swift */; };
+		5295F5DB2A904DEA00BA9F16 /* PokeEdit_MacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5DA2A904DEA00BA9F16 /* PokeEdit_MacUITestsLaunchTests.swift */; };
+		52D91A2E2A91A5F900041E40 /* SaveFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D91A2D2A91A5F900041E40 /* SaveFile.swift */; };
+		52D91A302A92313700041E40 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D91A2F2A92313700041E40 /* Pokemon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5295F5CB2A904DEA00BA9F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5295F5B12A904DE800BA9F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5295F5B82A904DE800BA9F16;
+			remoteInfo = "PokeEdit Mac";
+		};
+		5295F5D52A904DEA00BA9F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5295F5B12A904DE800BA9F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5295F5B82A904DE800BA9F16;
+			remoteInfo = "PokeEdit Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5295F5B92A904DE800BA9F16 /* PokeEdit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeEdit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5295F5BC2A904DE800BA9F16 /* PokeEdit_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEdit_MacApp.swift; sourceTree = "<group>"; };
+		5295F5BE2A904DE800BA9F16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5295F5C02A904DEA00BA9F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5295F5C32A904DEA00BA9F16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5295F5C52A904DEA00BA9F16 /* PokeEdit_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokeEdit_Mac.entitlements; sourceTree = "<group>"; };
+		5295F5CA2A904DEA00BA9F16 /* PokeEdit MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeEdit MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5295F5CE2A904DEA00BA9F16 /* PokeEdit_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEdit_MacTests.swift; sourceTree = "<group>"; };
+		5295F5D42A904DEA00BA9F16 /* PokeEdit MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeEdit MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5295F5D82A904DEA00BA9F16 /* PokeEdit_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEdit_MacUITests.swift; sourceTree = "<group>"; };
+		5295F5DA2A904DEA00BA9F16 /* PokeEdit_MacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEdit_MacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52D91A2D2A91A5F900041E40 /* SaveFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveFile.swift; sourceTree = "<group>"; };
+		52D91A2F2A92313700041E40 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5295F5B62A904DE800BA9F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295F5C72A904DEA00BA9F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295F5D12A904DEA00BA9F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5295F5B02A904DE800BA9F16 = {
+			isa = PBXGroup;
+			children = (
+				5295F5BB2A904DE800BA9F16 /* PokeEdit Mac */,
+				5295F5CD2A904DEA00BA9F16 /* PokeEdit MacTests */,
+				5295F5D72A904DEA00BA9F16 /* PokeEdit MacUITests */,
+				5295F5BA2A904DE800BA9F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5295F5BA2A904DE800BA9F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5295F5B92A904DE800BA9F16 /* PokeEdit Mac.app */,
+				5295F5CA2A904DEA00BA9F16 /* PokeEdit MacTests.xctest */,
+				5295F5D42A904DEA00BA9F16 /* PokeEdit MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5295F5BB2A904DE800BA9F16 /* PokeEdit Mac */ = {
+			isa = PBXGroup;
+			children = (
+				5295F5BC2A904DE800BA9F16 /* PokeEdit_MacApp.swift */,
+				5295F5BE2A904DE800BA9F16 /* ContentView.swift */,
+				52D91A2A2A912D5A00041E40 /* Data */,
+				5295F5C02A904DEA00BA9F16 /* Assets.xcassets */,
+				5295F5C52A904DEA00BA9F16 /* PokeEdit_Mac.entitlements */,
+				5295F5C22A904DEA00BA9F16 /* Preview Content */,
+			);
+			path = "PokeEdit Mac";
+			sourceTree = "<group>";
+		};
+		5295F5C22A904DEA00BA9F16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5295F5C32A904DEA00BA9F16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5295F5CD2A904DEA00BA9F16 /* PokeEdit MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				5295F5CE2A904DEA00BA9F16 /* PokeEdit_MacTests.swift */,
+			);
+			path = "PokeEdit MacTests";
+			sourceTree = "<group>";
+		};
+		5295F5D72A904DEA00BA9F16 /* PokeEdit MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5295F5D82A904DEA00BA9F16 /* PokeEdit_MacUITests.swift */,
+				5295F5DA2A904DEA00BA9F16 /* PokeEdit_MacUITestsLaunchTests.swift */,
+			);
+			path = "PokeEdit MacUITests";
+			sourceTree = "<group>";
+		};
+		52D91A2A2A912D5A00041E40 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				52D91A2D2A91A5F900041E40 /* SaveFile.swift */,
+				52D91A2F2A92313700041E40 /* Pokemon.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5295F5B82A904DE800BA9F16 /* PokeEdit Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5295F5DE2A904DEA00BA9F16 /* Build configuration list for PBXNativeTarget "PokeEdit Mac" */;
+			buildPhases = (
+				5295F5B52A904DE800BA9F16 /* Sources */,
+				5295F5B62A904DE800BA9F16 /* Frameworks */,
+				5295F5B72A904DE800BA9F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokeEdit Mac";
+			productName = "PokeEdit Mac";
+			productReference = 5295F5B92A904DE800BA9F16 /* PokeEdit Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5295F5C92A904DEA00BA9F16 /* PokeEdit MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5295F5E12A904DEA00BA9F16 /* Build configuration list for PBXNativeTarget "PokeEdit MacTests" */;
+			buildPhases = (
+				5295F5C62A904DEA00BA9F16 /* Sources */,
+				5295F5C72A904DEA00BA9F16 /* Frameworks */,
+				5295F5C82A904DEA00BA9F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5295F5CC2A904DEA00BA9F16 /* PBXTargetDependency */,
+			);
+			name = "PokeEdit MacTests";
+			productName = "PokeEdit MacTests";
+			productReference = 5295F5CA2A904DEA00BA9F16 /* PokeEdit MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5295F5D32A904DEA00BA9F16 /* PokeEdit MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5295F5E42A904DEA00BA9F16 /* Build configuration list for PBXNativeTarget "PokeEdit MacUITests" */;
+			buildPhases = (
+				5295F5D02A904DEA00BA9F16 /* Sources */,
+				5295F5D12A904DEA00BA9F16 /* Frameworks */,
+				5295F5D22A904DEA00BA9F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5295F5D62A904DEA00BA9F16 /* PBXTargetDependency */,
+			);
+			name = "PokeEdit MacUITests";
+			productName = "PokeEdit MacUITests";
+			productReference = 5295F5D42A904DEA00BA9F16 /* PokeEdit MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5295F5B12A904DE800BA9F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5295F5B82A904DE800BA9F16 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5295F5C92A904DEA00BA9F16 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5295F5B82A904DE800BA9F16;
+					};
+					5295F5D32A904DEA00BA9F16 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5295F5B82A904DE800BA9F16;
+					};
+				};
+			};
+			buildConfigurationList = 5295F5B42A904DE800BA9F16 /* Build configuration list for PBXProject "PokeEdit Mac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5295F5B02A904DE800BA9F16;
+			productRefGroup = 5295F5BA2A904DE800BA9F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5295F5B82A904DE800BA9F16 /* PokeEdit Mac */,
+				5295F5C92A904DEA00BA9F16 /* PokeEdit MacTests */,
+				5295F5D32A904DEA00BA9F16 /* PokeEdit MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5295F5B72A904DE800BA9F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5295F5C42A904DEA00BA9F16 /* Preview Assets.xcassets in Resources */,
+				5295F5C12A904DEA00BA9F16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295F5C82A904DEA00BA9F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295F5D22A904DEA00BA9F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5295F5B52A904DE800BA9F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D91A302A92313700041E40 /* Pokemon.swift in Sources */,
+				5295F5BF2A904DE800BA9F16 /* ContentView.swift in Sources */,
+				5295F5BD2A904DE800BA9F16 /* PokeEdit_MacApp.swift in Sources */,
+				52D91A2E2A91A5F900041E40 /* SaveFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295F5C62A904DEA00BA9F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5295F5CF2A904DEA00BA9F16 /* PokeEdit_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295F5D02A904DEA00BA9F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5295F5D92A904DEA00BA9F16 /* PokeEdit_MacUITests.swift in Sources */,
+				5295F5DB2A904DEA00BA9F16 /* PokeEdit_MacUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5295F5CC2A904DEA00BA9F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5295F5B82A904DE800BA9F16 /* PokeEdit Mac */;
+			targetProxy = 5295F5CB2A904DEA00BA9F16 /* PBXContainerItemProxy */;
+		};
+		5295F5D62A904DEA00BA9F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5295F5B82A904DE800BA9F16 /* PokeEdit Mac */;
+			targetProxy = 5295F5D52A904DEA00BA9F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5295F5DC2A904DEA00BA9F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5295F5DD2A904DEA00BA9F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5295F5DF2A904DEA00BA9F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PokeEdit Mac/PokeEdit_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeEdit Mac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vyra-Nightingale.PokeEdit-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5295F5E02A904DEA00BA9F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PokeEdit Mac/PokeEdit_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeEdit Mac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vyra-Nightingale.PokeEdit-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5295F5E22A904DEA00BA9F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vyra-Nightingale.PokeEdit-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeEdit Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokeEdit Mac";
+			};
+			name = Debug;
+		};
+		5295F5E32A904DEA00BA9F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vyra-Nightingale.PokeEdit-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeEdit Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokeEdit Mac";
+			};
+			name = Release;
+		};
+		5295F5E52A904DEA00BA9F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vyra-Nightingale.PokeEdit-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PokeEdit Mac";
+			};
+			name = Debug;
+		};
+		5295F5E62A904DEA00BA9F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vyra-Nightingale.PokeEdit-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PokeEdit Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5295F5B42A904DE800BA9F16 /* Build configuration list for PBXProject "PokeEdit Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5295F5DC2A904DEA00BA9F16 /* Debug */,
+				5295F5DD2A904DEA00BA9F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5295F5DE2A904DEA00BA9F16 /* Build configuration list for PBXNativeTarget "PokeEdit Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5295F5DF2A904DEA00BA9F16 /* Debug */,
+				5295F5E02A904DEA00BA9F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5295F5E12A904DEA00BA9F16 /* Build configuration list for PBXNativeTarget "PokeEdit MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5295F5E22A904DEA00BA9F16 /* Debug */,
+				5295F5E32A904DEA00BA9F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5295F5E42A904DEA00BA9F16 /* Build configuration list for PBXNativeTarget "PokeEdit MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5295F5E52A904DEA00BA9F16 /* Debug */,
+				5295F5E62A904DEA00BA9F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5295F5B12A904DE800BA9F16 /* Project object */;
+}
