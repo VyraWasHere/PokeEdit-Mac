@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5287D7992A9397A9004C57A3 /* PokemonSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287D7982A9397A9004C57A3 /* PokemonSelectView.swift */; };
+		5287D79B2A939B2D004C57A3 /* BoxMiscView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287D79A2A939B2D004C57A3 /* BoxMiscView.swift */; };
 		5295F5BD2A904DE800BA9F16 /* PokeEdit_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5BC2A904DE800BA9F16 /* PokeEdit_MacApp.swift */; };
 		5295F5BF2A904DE800BA9F16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295F5BE2A904DE800BA9F16 /* ContentView.swift */; };
 		5295F5C12A904DEA00BA9F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5295F5C02A904DEA00BA9F16 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5287D7982A9397A9004C57A3 /* PokemonSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSelectView.swift; sourceTree = "<group>"; };
+		5287D79A2A939B2D004C57A3 /* BoxMiscView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxMiscView.swift; sourceTree = "<group>"; };
 		5295F5B92A904DE800BA9F16 /* PokeEdit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeEdit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5295F5BC2A904DE800BA9F16 /* PokeEdit_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeEdit_MacApp.swift; sourceTree = "<group>"; };
 		5295F5BE2A904DE800BA9F16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5287D7972A939774004C57A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5287D7982A9397A9004C57A3 /* PokemonSelectView.swift */,
+				5287D79A2A939B2D004C57A3 /* BoxMiscView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5295F5B02A904DE800BA9F16 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 			children = (
 				5295F5BC2A904DE800BA9F16 /* PokeEdit_MacApp.swift */,
 				5295F5BE2A904DE800BA9F16 /* ContentView.swift */,
+				5287D7972A939774004C57A3 /* Views */,
 				52D91A2A2A912D5A00041E40 /* Data */,
 				5295F5C02A904DEA00BA9F16 /* Assets.xcassets */,
 				5295F5C52A904DEA00BA9F16 /* PokeEdit_Mac.entitlements */,
@@ -275,8 +289,10 @@
 			files = (
 				52D91A302A92313700041E40 /* Pokemon.swift in Sources */,
 				5295F5BF2A904DE800BA9F16 /* ContentView.swift in Sources */,
+				5287D79B2A939B2D004C57A3 /* BoxMiscView.swift in Sources */,
 				5295F5BD2A904DE800BA9F16 /* PokeEdit_MacApp.swift in Sources */,
 				52D91A2E2A91A5F900041E40 /* SaveFile.swift in Sources */,
+				5287D7992A9397A9004C57A3 /* PokemonSelectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
