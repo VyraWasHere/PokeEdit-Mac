@@ -1,12 +1,11 @@
 import SwiftUI
 
 struct BoxMiscView: View {
-    @Binding var save: PokeSav
     
     var body: some View {
         TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
             GroupBox(label: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label@*/Text("")/*@END_MENU_TOKEN@*/) {
-                BoxDataView(save: $save)
+                BoxDataView()
             }
             .tabItem { Text("Box") }.tag(1)
              
@@ -14,29 +13,35 @@ struct BoxMiscView: View {
                 
             }.tabItem { Text("SAV") }.tag(2)
         }
-        .padding(.top, 2.0)
+        .padding(.bottom, 2.0)
     }
 }
 
 struct BoxMiscView_Previews: PreviewProvider {
     static var previews: some View {
-        BoxMiscView(save: .constant(PokeSav()))
+        BoxMiscView()
     }
 }
 
 struct BoxDataView : View {
-    @Binding var save: PokeSav
+    @Environment(\.saveFile) private var save
     
     static private let verticalSize = 5, horizontalSize = 6
-    @State private var boxData = [[PokemonData?]](repeating:
-        [PokemonData?](repeating: nil, count: horizontalSize),
-    count: verticalSize)
-    @State private var currentBox: Int = 1
+    @State var currentBox = 1
     
     var body: some View {
-        Stepper(value: $currentBox, in: 1...14) {
-            Text("Box \(currentBox)")
-        }.onChange(of: currentBox, perform: save.loadBox)
+        
+        HStack {
+            Picker("", selection: $currentBox) {
+                ForEach(save.boxModel.boxes, id: \.index) { box in
+                    Text(box.name).tag(box.index + 1)
+                }
+            }
+            Stepper(value: $currentBox, in: 1...(save.boxModel.boxes.count)) {
+            }.onAppear() {
+                currentBox = save.boxModel.currentBox + 1
+            }
+        }
         
         
         GroupBox(label: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label@*/Text("")/*@END_MENU_TOKEN@*/) {
@@ -44,10 +49,24 @@ struct BoxDataView : View {
                 ForEach(0..<BoxDataView.verticalSize, id: \.self) { v in
                     HStack {
                         ForEach(0..<BoxDataView.horizontalSize, id: \.self) { h in
-                            if boxData[v][h] != nil {
-                                Image(decorative: boxData[v][h]!.sprite, scale: 1.0)
+                            let currentPokemon = save.boxModel.boxes[currentBox - 1].boxPokemon[v][h]
+                            if currentPokemon != nil {
+                                let spriteCode = Pokemon.allCases.firstIndex(of: currentPokemon!.species)! + 1
+                                Image("b_\(spriteCode)")
+                                    .aspectRatio(CGSize(width: 1.5, height: 1.5), contentMode: .fill)
+                                .contextMenu {
+                                    Button("View") {
+                                        print("box", currentBox, "vert", v, "hori", h, save.boxModel.boxes[currentBox - 1].boxPokemon[v][h]!.species.rawValue)
+                                    }
+                                }
                             } else {
-                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                Image("b_unknown")
+                                .aspectRatio(CGSize(width: 1.5, height: 1.5), contentMode: .fill)
+                                .contextMenu {
+                                    Button("Set") {
+                                        print(save.saveData ?? "")
+                                    }
+                                }
                             }
                         }
                     }
@@ -59,6 +78,6 @@ struct BoxDataView : View {
 
 struct BoxDataView_Previews: PreviewProvider {
     static var previews: some View {
-        BoxDataView(save: .constant(PokeSav()))
+        BoxDataView()
     }
 }

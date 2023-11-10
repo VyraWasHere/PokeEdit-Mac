@@ -1,51 +1,61 @@
 {
   "images" : [
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-16x16.jpeg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-32x32 1.jpeg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-32x32.jpeg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-64x64.jpeg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-128x128.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-256x256 1.jpeg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-256x256.jpeg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-512x512 1.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-512x512.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "Pokemon-Go-Pokebol-Game-3d-Wallpaper-1024x1024.jpeg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

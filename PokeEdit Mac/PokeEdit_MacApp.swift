@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+
+
 @main
 struct PokeEdit_MacApp: App {
+    @State var save: SaveFile = SaveFile()
+    
     var body: some Scene {
-        DocumentGroup(newDocument: PokeSav()) { file in
-            ContentView(save: file.$document)
+        // TODO: Open up a dummy file first instead of launching with file importer
+        DocumentGroup(newDocument: SaveFile()) { file in
+            ContentView()
+                .environment(\.saveFile, file.document)
         }
     }
 }

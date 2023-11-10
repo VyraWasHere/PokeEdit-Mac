@@ -3,4 +3,70 @@
    uuid = "C7391044-800A-4B7B-9521-B1F0BABAFD0E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E94C523F-1CEE-4732-867A-CCD9EFC8C4AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokeEdit Mac/Data/Pokemon Data/Pkm3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "toggleEncryption(of:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80962DEB-9D52-4028-8A0A-96371D1FD75B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokeEdit Mac/Data/Pokemon Data/Pkm3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "init(pokemonData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80962DEB-9D52-4028-8A0A-96371D1FD75B - 6551e81fad871b2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokeEdit_Mac.Pkm3.init(pokemonData: Foundation.Data) -&gt; PokeEdit_Mac.Pkm3"
+                  moduleName = "PokeEdit Mac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vyra/Documents/PokeEdit%20Mac/PokeEdit%20Mac/Data/Pokemon%20Data/Pkm3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "2628">
+               </Location>
+               <Location
+                  uuid = "80962DEB-9D52-4028-8A0A-96371D1FD75B - 6551e81fad871b4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokeEdit_Mac.Pkm3.init(pokemonData: Foundation.Data) -&gt; PokeEdit_Mac.Pkm3"
+                  moduleName = "PokeEdit Mac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vyra/Documents/PokeEdit%20Mac/PokeEdit%20Mac/Data/Pokemon%20Data/Pkm3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "2860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
